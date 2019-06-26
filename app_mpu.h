@@ -256,13 +256,6 @@ uint32_t app_mpu_read_gyro(gyro_values_t * gyro_values);
  * @param[in]   temp_values     Pointer to variable to hold temperature data
  * @retval      uint32_t        Error code
  */
-uint32_t app_mpu_read_temp(temp_value_t * temp_values);
-
-/**@brief Function for reading the source of the MPU generated interrupts.
- *
- * @param[in]   int_source      Pointer to variable to hold interrupt source
- * @retval      uint32_t        Error code
- */
 uint32_t app_mpu_read_int_source(uint8_t * int_source);
 
 
